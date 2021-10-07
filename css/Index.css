@@ -98,7 +98,7 @@ a{
  
  .col-md-4{
 	 transition: .4s;
-	 border-radius: 5px !important;
+	 border-radius: 5px;
  }
 
  .col-md-4:hover{
