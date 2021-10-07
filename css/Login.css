@@ -108,6 +108,7 @@ body.my-login-page {
 	text-align: center;
 }
 
+
 @media screen and (max-width: 425px) {
 	.my-login-page .card-wrapper {
 		width: 90%;
@@ -126,7 +127,14 @@ body.my-login-page {
 }
 .btn-block{
 	width: 100%;
+	
 }
+.mybtn{
+	text-decoration:none !important;
+	color: white !important;
+	font-weight: 600 !important;
+	font-size: 17px;
+} 
 
 
 /* Footer Css */
