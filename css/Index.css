@@ -98,7 +98,7 @@ a{
  
  .col-md-4{
 	 transition: .4s;
-	 border-radius: 15px;
+	 border-radius: 5px !important;
  }
 
  .col-md-4:hover{
@@ -106,7 +106,7 @@ a{
   } 
 
   .btn{
-	  margin-right: 10px !important;
+	  margin-right: 15px !important;
   }
 
   @media only screen and (max-width: 768px) {
