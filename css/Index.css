@@ -105,10 +105,6 @@ a{
 	transform: scale(1.1) ;
   } 
 
-  .btn{
-	  margin-right: 5px !important;
-  }
-
   @media only screen and (max-width: 768px) {
 	/* For mobile phones: */
 	.col-4 {
