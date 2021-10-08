@@ -43,7 +43,7 @@ span{
 	transition-delay: .4s;
  }
  .nav-link:hover {
-	transform: scale(0.7) ;
+	transform: scale(0.5) ;
 	color: #F0A500 !important ;
 	
 }
