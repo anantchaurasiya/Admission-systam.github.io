@@ -38,11 +38,7 @@ span{
 	font-weight: 200 !important;
 }
 
-.nav-link{
-	transition-delay: .4s;
- }
  .nav-link:hover {
-	transform: scale(1.1) ;
 	color: #F0A500 !important ;
 	
 }
