@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 /* Scroller css */
 /* width */
 ::-webkit-scrollbar {
@@ -51,7 +51,14 @@ span{
 .carousel-item{
 	height:  60% !important;
 	width: 100% !important;
+	transition: transform 2s ease, opacity .5s ease-out
+	
 }
+
+img:hover {
+	transform: scaleX(-1);
+}
+
 
 /* About Us Css */
 h1{
@@ -98,12 +105,14 @@ a{
  
  .col-md-4{
 	 transition: .4s;
-	 border-radius: 5px;
+	 border-radius: 5px !important;
  }
 
  .col-md-4:hover{
 	transform: scale(1.1) ;
   } 
+
+  
 
   @media only screen and (max-width: 768px) {
 	/* For mobile phones: */
